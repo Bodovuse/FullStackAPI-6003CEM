@@ -1,0 +1,78 @@
+[{
+    "id": 1,
+    "title": "Post 1",
+    "summary": "some desription about the Post",
+    "imgURL": "https://www.utilitydesign.co.uk/wp/wp-content/uploads/2017/06/HAC_photo_by_Iwan_Baan_2.jpg",
+    "avatarURL": "https://avatar.iran.liara.run/public/17",
+    "likes": 7,
+    "comments": 4,
+    "pinned": false,
+    "liked": true
+},
+{
+    "id": 2,
+    "title": "Post 2",
+    "summary": "some desription about the Post",
+    "imgURL": "https://www.arch2o.com/wp-content/uploads/2022/10/Arch2O-10-of-the-most-eye-opening-iconic-buildings-of-modern-architecture.jpg",
+    "avatarURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToCDlginZPXtHrX80AfWGtefluFyC2aK-BJg0HU4LGrw&s",
+    "likes": 5,
+    "comments": 8,
+    "pinned": true,
+    "liked": false
+},
+{
+    "id": 3,
+    "title": "Post 3",
+    "summary": "some desription about the Post",
+    "imgURL": "https://i0.wp.com/boingboing.net/wp-content/uploads/2020/12/brazil-house.jpg?fit=1500%2C1000&ssl=1",
+    "avatarURL":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg1ifnr8aDs6GN5wiSaOnT-rDz8_UAr0yaGi84k1_GVw&s",
+    "likes": 14,
+    "comments": 2,
+    "pinned": false,
+    "liked": false
+},
+{
+    "id": 4,
+    "title": "Post 4",
+    "summary": "some desription about the Post",
+    "imgURL": "https://www.utilitydesign.co.uk/wp/wp-content/uploads/2017/06/HAC_photo_by_Iwan_Baan_2.jpg",
+    "avatarURL": "https://avatar.iran.liara.run/public/15",
+    "likes": 22,
+    "comments": 4,
+    "pinned": true,
+    "liked": true
+},
+{
+    "id": 5,
+    "title": "Post 5",
+    "summary": "some desription about the Post",
+    "imgURL": "https://www.arch2o.com/wp-content/uploads/2022/10/Arch2O-10-of-the-most-eye-opening-iconic-buildings-of-modern-architecture.jpg",
+    "avatarURL": "https://avatar.iran.liara.run/public/18",
+    "likes": 4,
+    "comments": 3,
+    "pinned": false,
+    "liked": false
+},
+{
+    "id": 6,
+    "title": "Post 6",
+    "summary": "some desription about the Post",
+    "imgURL": "https://i0.wp.com/boingboing.net/wp-content/uploads/2020/12/brazil-house.jpg?fit=1500%2C1000&ssl=1",
+    "avatarURL":"https://avatar.iran.liara.run/public/30",
+    "likes": 6,
+    "comments": 4,
+    "pinned": false,
+    "liked": false
+},
+{
+    "id": 7,
+    "title": "Post 7",
+    "summary": "some desription about the Post",
+    "imgURL": "https://i0.wp.com/boingboing.net/wp-content/uploads/2020/12/brazil-house.jpg?fit=1500%2C1000&ssl=1",
+    "avatarURL":"https://avatar.iran.liara.run/public/42",
+    "likes": 12,
+    "comments": 5,
+    "pinned": false,
+    "liked": false
+}
+]

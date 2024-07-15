@@ -1,0 +1,57 @@
+{
+  "name": "blog_demo",
+  "version": "1.0.0",
+  "description": "This repository contains the growing code-base of our example Koa-based RESTful API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "debug": "nodemon --inspect index.js",
+    "test": "cross-env DB_DATABASE=test_db jest --testTimeout=10000",
+    "test:watch": "cross-env DB_DATABASE=test_db jest --watch",
+    "testDB:drop": "/usr/local/mysql/bin/mysql --user=root --password=password -e 'DROP DATABASE IF EXISTS test_db;'",
+    "testDB:create": "/usr/local/mysql/bin/mysql --user=root --password=password -e 'CREATE DATABASE test_db;'",
+    "testDB:migrate": "/usr/local/mysql/bin/mysqldump --user=root --password=password blog_demo | /usr/local/mysql/bin/mysql --user=root --password=password test_db",
+    "lint": "eslint --ignore-path .gitignore --ignore-path .eslintignore .",
+    "pretest": "npm run testDB:drop && npm run testDB:create && npm run testDB:migrate",
+    "posttest": "npm run lint"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "author": "Tamzin Davies",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "babel-node": "^0.0.1-security",
+    "bcrypt": "^5.0.0",
+    "etag": "^1.8.1",
+    "fs": "0.0.1-security",
+    "jsdoc": "^4.0.2",
+    "jsonschema": "^1.2.11",
+    "koa": "^2.15.0",
+    "koa-body": "^4.2.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-mount": "^4.0.0",
+    "koa-passport": "^6.0.0",
+    "koa-router": "^9.4.0",
+    "koa-session": "^6.4.0",
+    "koa-static": "^5.0.0",
+    "mime-types": "^2.1.29",
+    "passport-http": "^0.3.0",
+    "promise-mysql": "^4.1.4",
+    "role-acl": "^4.5.4",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "eslint": "^7.14.0",
+    "jest": "^26.6.3",
+    "supertest": "^6.0.1"
+  },
+  "directories": {
+    "doc": "docs"
+  }
+}
